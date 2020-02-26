@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Mijn favoriete albums</title>
+</head>
+<body>
+   <h1 class="title">Mijn favoriete albums</h1>
+     <div class="albumcover">
+      <div class="tekstcover">
+       <img src="img/alleyezonme.jpg" alt="alleyezonme album cover">
+       <article>
+         <h3>All Eyez On Me</h3>
+         <h4>Tupac</h4>
+         <ol>
+             <li>Ambitionz Az a Ridah</li>
+             <li>All Bout U</li>
+             <li>Skandalouz</li>
+             <li>Got My Mind Made Up</li>
+             <li>How Do U Want It</li>
+         </ol>
+       </article>
+     </div>
+     </div>
+   <div class="albumcover">
+     <div class="tekstcover">
+      <img src="img/DrDre2001.jpg" alt="2001 album cover">
+      <article>
+       <h3>2001</h3>
+       <h4>Dr.Dre</h4>
+       <ol>
+           <li>Lolo</li>
+           <li>The Watcher</li>
+           <li>Fuck You</li>
+           <li>Still D.R.E.</li>
+           <li>Big Ego’s</li>
+           <li>Xxplosive</li>
+           <li>What’s the Difference</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/fruitdudemon.jpg" alt="Fruit du demon album cover">
+     <article>
+       <h3>Fruit Du Demon</h3>
+       <h4>Soolking</h4>
+       <ol>
+         <li>Rockstar</li>
+         <li>Bambina</li>
+         <li>Amsterdam</li>
+         <li>Guerilla</li>
+         <li>Gucci</li>
+         <li>Tata</li>
+         <li>Vroom vroom</li>
+       </ol>
+     </article>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/ashafar.jpg" alt="La vie album cover">
+     <article>
+       <h3>La Vie</h3>
+       <h4>Ashafar</h4>
+       <ol>
+           <li>Gooische G</li>
+           <li>Ta Mere</li>
+           <li>On Lock</li>
+           <li>Scherp</li>
+           <li>Wayway</li>
+           <li>La Vida</li>
+           <li>Lamborghini</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/frenna.jpg" alt="Francis album cover">
+     <article>
+       <h3>Francis</h3>
+       <h4>Frenna</h4>
+       <ol>
+           <li>Da Vinci</li>
+           <li>Pray</li>
+           <li>Louboutin</li>
+           <li>Give Dem</li>
+           <li>Regen</li>
+           <li>VSS</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/seffelinie.jpg" alt="Van De Buurt album cover">
+     <article>
+       <h3>Van De Buurt</h3>
+       <h4>Seffelnie</h4>
+       <ol>
+           <li>Skizo</li>
+           <li>Niks Voor Mij</li>
+           <li>Parra Parra</li>
+           <li>Doorgedraaid</li>
+           <li>Wat Anders</li>
+           <li>Niemand</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/mero.jpg" alt="Ya Hero Ya Mero album cover">
+     <article>
+       <h3>Ya Hero Ya Mero</h3>
+       <h4>Mero</h4>
+       <ol>
+           <li>Baller Los</li>
+           <li>Ferrari</li>
+           <li>Wolke 10</li>
+           <li>Hobby Hobby</li>
+           <li>Hops</li>
+           <li>Kein Plan</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/algerino.jpg" alt="International album cover">
+     <article>
+       <h3>International</h3>
+       <h4>L'Algerino</h4>
+       <ol>
+           <li>International</li>
+           <li>Bambina</li>
+           <li>Hola</li>
+           <li>Tape Dans Le Mille</li>
+           <li>Adios</li>
+           <li>Va Bene</li>
+           <li>Les Menottes</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <div class="albumcover">
+   <div class="tekstcover">
+     <img src="img/sagopa.jpg" alt="Saydam Odalar album cover">
+     <article>
+       <h3>Saydam Odalar</h3>
+       <h4>Sagopa Kajmer</h4>
+       <ol>
+           <li>Insafa Gel</li>
+           <li>Galiba</li>
+           <li>Kac Kacabilirsen</li>
+           <li>Herkes</li>
+           <li>Cunku Bir Tek Yol Var</li>
+           <li>Bu Islerden Elini Cek</li>
+           <li>Ardindan Bakarim</li>
+       </ol>
+     </article>
+   </div>
+   </div>
+   <footer>
+     <script>
+       let alleAlbums = document.querySelectorAll('.tekstcover');
+
+       const naarBoven = (e) => {
+         e.target.classList.remove('naarBeneden');
+         e.target.classList.add('naarBoven');
+       }
+       const naarBeneden = (e) => {
+         e.target.classList.remove('naarBoven');
+         e.target.classList.add('naarBeneden');
+       }
+
+       for(let i=0; i<alleAlbums.length; i++) {
+         let tekstcover = alleAlbums[i];
+         tekstcover.addEventListener('mouseenter' , naarBoven);
+         tekstcover.addEventListener('mouseleave' , naarBeneden);
+
+       }
+
+     </script>
+
+
+   </footer>
+</body>
+</html>
